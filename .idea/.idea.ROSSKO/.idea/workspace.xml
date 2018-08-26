@@ -1,0 +1,185 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="99da320c-9d3d-4a4c-8578-7f2d8d74a1a8" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/.idea.ROSSKO/.idea/contentModel.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/.idea.ROSSKO/.idea/indexLayout.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/.idea.ROSSKO/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/.idea.ROSSKO/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/.idea.ROSSKO/riderModule.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ROSSKO.sln" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ROSSKO/.idea/.idea.ROSSKO/.idea/contentModel.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Test/Program.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Test/Test.csproj" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Test/obj/Debug/netcoreapp2.0/Test.AssemblyInfo.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Test/obj/Debug/netcoreapp2.0/Test.AssemblyInfoInputs.cache" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Test/obj/Test.csproj.nuget.cache" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Test/obj/Test.csproj.nuget.g.props" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Test/obj/Test.csproj.nuget.g.targets" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Test/obj/project.assets.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Test/obj/project.packagespec.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WebApp/Controllers/ValuesController.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WebApp/Program.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WebApp/Startup.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WebApp/WebApp.csproj" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WebApp/appsettings.Development.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WebApp/appsettings.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WebApp/obj/Debug/netcoreapp2.0/WebApp.AssemblyInfo.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WebApp/obj/Debug/netcoreapp2.0/WebApp.AssemblyInfoInputs.cache" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WebApp/obj/WebApp.csproj.nuget.cache" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WebApp/obj/WebApp.csproj.nuget.g.props" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WebApp/obj/WebApp.csproj.nuget.g.targets" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WebApp/obj/project.assets.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WebApp/obj/project.packagespec.json" afterDir="false" />
+    </list>
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FUSProjectUsageTrigger">
+    <session id="-1035355638">
+      <usages-collector id="statistics.lifecycle.project">
+        <counts>
+          <entry key="project.closed" value="1" />
+          <entry key="project.open.time.0" value="1" />
+          <entry key="project.opened" value="1" />
+        </counts>
+      </usages-collector>
+    </session>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsGulpfileManager">
+    <detection-done>true</detection-done>
+    <sorting>DEFINITION_ORDER</sorting>
+  </component>
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="-7" />
+    <option name="width" value="1271" />
+    <option name="height" value="1047" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectView">
+    <navigator currentView="SolutionExplorer" proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="FileSystemExplorer" />
+      <pane id="SolutionExplorer">
+        <subPane>
+          <expand>
+            <path>
+              <item name="Project" type="784c90a0:SolutionExplorerRootNode" />
+              <item name="ROSSKO" type="24d0babc:SolutionExplorerModelNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+        <option name="show-all-files" value="false" />
+      </pane>
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="Rider.DefaultBreakpoints.AreToggled" value="true" />
+    <property name="Rider.ProjectViewActivator.IsNotFirstRun" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager">
+    <configuration name="Default" type="DotNetProject" factoryName=".NET Project">
+      <option name="EXE_PATH" value="" />
+      <option name="PROGRAM_PARAMETERS" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="PASS_PARENT_ENVS" value="1" />
+      <option name="USE_EXTERNAL_CONSOLE" value="0" />
+      <option name="USE_MONO" value="0" />
+      <option name="RUNTIME_ARGUMENTS" value="" />
+      <option name="PROJECT_PATH" value="" />
+      <option name="PROJECT_EXE_PATH_TRACKING" value="1" />
+      <option name="PROJECT_ARGUMENTS_TRACKING" value="1" />
+      <option name="PROJECT_WORKING_DIRECTORY_TRACKING" value="1" />
+      <option name="PROJECT_KIND" value="None" />
+      <option name="PROJECT_TFM" value="" />
+      <method v="2">
+        <option name="Build" enabled="true" />
+      </method>
+    </configuration>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="99da320c-9d3d-4a4c-8578-7f2d8d74a1a8" name="Default Changelist" comment="" />
+      <created>1535297966734</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1535297966734</updated>
+      <workItem from="1535297967830" duration="69000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="69000" />
+  </component>
+  <component name="TodoView">
+    <todo-panel id="selected-file">
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+    <todo-panel id="all">
+      <are-packages-shown value="true" />
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
+    <layout>
+      <window_info id="Favorites" order="0" side_tool="true" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info id="Version Control" order="2" sideWeight="0.4968017" type="SLIDING" weight="0.6231343" />
+      <window_info id="REST Client" order="3" type="SLIDING" weight="0.8251599" />
+      <window_info anchor="bottom" id="Event Log" order="0" sideWeight="0.50319827" side_tool="true" weight="0.32897604" />
+      <window_info anchor="bottom" id="Unit Tests" order="1" />
+      <window_info anchor="bottom" id="Terminal" order="2" />
+      <window_info anchor="bottom" id="NuGet" order="3" sideWeight="0.4978678" weight="0.62636167" />
+      <window_info anchor="bottom" id="Message" order="4" />
+      <window_info anchor="bottom" id="Find" order="5" />
+      <window_info anchor="bottom" id="Run" order="6" weight="0.32897604" />
+      <window_info anchor="bottom" id="Debug" order="7" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="8" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="9" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="10" />
+      <window_info anchor="bottom" id="Database Changes" order="11" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Docker" order="12" show_stripe_button="false" />
+      <window_info anchor="right" id="Unit Tests Coverage" />
+      <window_info active="true" anchor="right" content_ui="combo" id="Project" order="0" visible="true" weight="0.17643923" />
+      <window_info anchor="right" id="Errors In Solution" order="1" weight="0.32995737" />
+      <window_info anchor="right" id="Database" order="2" />
+      <window_info anchor="right" id="Commander" order="3" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="4" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="5" weight="0.25" />
+    </layout>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+</project>
