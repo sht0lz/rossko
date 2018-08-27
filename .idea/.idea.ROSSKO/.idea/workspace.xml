@@ -2,12 +2,34 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="99da320c-9d3d-4a4c-8578-7f2d8d74a1a8" name="Default Changelist" comment="Количество перестановок с повторениями">
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.ROSSKO/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.ROSSKO/.idea/contentModel.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.ROSSKO/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.ROSSKO/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/AppServices/Permutation/IPermutationService.cs" beforeDir="false" afterPath="$PROJECT_DIR$/AppServices/Permutation/IPermutationsService.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/AppServices/Permutation/PermutationService.cs" beforeDir="false" afterPath="$PROJECT_DIR$/AppServices/Permutation/PermutationsesService.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/WebApp/Controllers/PermutationController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/WebApp/Controllers/PermutationController.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/WebApp/Startup.cs" beforeDir="false" afterPath="$PROJECT_DIR$/WebApp/Startup.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ROSSKO/.idea/.idea.ROSSKO/.idea/indexLayout.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ROSSKO/.idea/.idea.ROSSKO/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ROSSKO/.idea/.idea.ROSSKO/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ROSSKO/.idea/.idea.ROSSKO/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ROSSKO/.idea/.idea.ROSSKO/riderModule.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ROSSKO/ROSSKO.sln" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ROSSKO/Test/Program.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ROSSKO/Test/Test.csproj" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ROSSKO/Test/obj/Debug/netcoreapp2.0/Test.AssemblyInfo.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ROSSKO/Test/obj/Debug/netcoreapp2.0/Test.AssemblyInfoInputs.cache" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ROSSKO/Test/obj/Test.csproj.nuget.cache" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ROSSKO/Test/obj/Test.csproj.nuget.g.props" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ROSSKO/Test/obj/Test.csproj.nuget.g.targets" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ROSSKO/Test/obj/project.assets.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ROSSKO/Test/obj/project.packagespec.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ROSSKO/WebApp/Controllers/ValuesController.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ROSSKO/WebApp/Program.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ROSSKO/WebApp/Startup.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ROSSKO/WebApp/WebApp.csproj" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ROSSKO/WebApp/appsettings.Development.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ROSSKO/WebApp/appsettings.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ROSSKO/WebApp/obj/Debug/netcoreapp2.0/WebApp.AssemblyInfo.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ROSSKO/WebApp/obj/Debug/netcoreapp2.0/WebApp.AssemblyInfoInputs.cache" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ROSSKO/WebApp/obj/WebApp.csproj.nuget.cache" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ROSSKO/WebApp/obj/WebApp.csproj.nuget.g.props" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ROSSKO/WebApp/obj/WebApp.csproj.nuget.g.targets" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ROSSKO/WebApp/obj/project.assets.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ROSSKO/WebApp/obj/project.packagespec.json" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.idea/httpRequests/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -46,31 +68,31 @@
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
-          <entry key="cs" value="19" />
+          <entry key="cs" value="20" />
           <entry key="sql" value="1" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="C#" value="19" />
+          <entry key="C#" value="20" />
           <entry key="Scratch" value="1" />
         </counts>
       </usages-collector>
     </session>
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+    <leaf>
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/WebApp/Controllers/PermutationController.cs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="300">
-              <caret line="22" column="1" lean-forward="true" selection-start-line="22" selection-start-column="1" selection-end-line="22" selection-end-column="1" />
+            <state relative-caret-position="180">
+              <caret line="14" column="8" lean-forward="true" selection-start-line="14" selection-start-column="8" selection-end-line="14" selection-end-column="8" />
               <folding>
-                <marker date="1535330860285" expanded="false" signature="6:82" ph="..." />
-                <marker date="1535330860285" expanded="true" signature="112:667" ph="{...}" />
-                <marker date="1535330860285" expanded="true" signature="166:665" ph="{...}" />
-                <marker date="1535330860285" expanded="true" signature="320:396" ph="{...}" />
-                <marker date="1535330860285" expanded="true" signature="500:659" ph="{...}" />
+                <marker date="1535331389586" expanded="false" signature="6:82" ph="..." />
+                <marker date="1535331389586" expanded="true" signature="112:667" ph="{...}" />
+                <marker date="1535331389586" expanded="true" signature="166:665" ph="{...}" />
+                <marker date="1535331389586" expanded="true" signature="320:396" ph="{...}" />
+                <marker date="1535331389586" expanded="true" signature="500:659" ph="{...}" />
               </folding>
             </state>
           </provider>
@@ -87,10 +109,6 @@
     </option>
   </component>
   <component name="HighlightingSettingsPerFile">
-    <setting file="file://$PROJECT_DIR$/WebApp/Controllers/PermutationController.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/AppServices/Permutation/IPermutationsService.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/AppServices/Permutation/PermutationsesService.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/WebApp/Model/PermutationsModel.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/WebApp/Startup.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/metadata/29E20D1E-D496-4AC3-B854-136445BEE14D/81/7f8b045a/MvcServiceCollectionExtensions.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/WebApp/Program.cs" root0="FORCE_HIGHLIGHTING" />
@@ -98,6 +116,10 @@
     <setting file="file://$PROJECT_DIR$/WebApp/Controllers/ValuesController.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="dummy://restClient/response49.json" root0="SKIP_INSPECTION" />
     <setting file="file://$PROJECT_DIR$/Domain/Permutations.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/WebApp/Controllers/PermutationController.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/WebApp/Model/PermutationsModel.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/AppServices/Permutation/IPermutationsService.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/AppServices/Permutation/PermutationsesService.cs" root0="FORCE_HIGHLIGHTING" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
@@ -144,6 +166,12 @@
               <item name="Project" type="784c90a0:SolutionExplorerRootNode" />
               <item name="ROSSKO" type="24d0babc:SolutionExplorerModelNode" />
               <item name="WebApp" type="24d0babc:SolutionExplorerModelNode" />
+            </path>
+            <path>
+              <item name="Project" type="784c90a0:SolutionExplorerRootNode" />
+              <item name="ROSSKO" type="24d0babc:SolutionExplorerModelNode" />
+              <item name="WebApp" type="24d0babc:SolutionExplorerModelNode" />
+              <item name="Controllers" type="24d0babc:SolutionExplorerModelNode" />
             </path>
           </expand>
           <select />
@@ -327,6 +355,7 @@
         <item itemvalue=".NET Project.Test" />
         <item itemvalue=".NET Project.WebApp" />
         <item itemvalue=".NET Project.Test" />
+        <item itemvalue=".NET Project.WebApp" />
       </list>
     </recent_temporary>
   </component>
@@ -376,7 +405,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="7268000" />
+    <option name="totallyTimeSpent" value="7337000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -389,11 +418,10 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
-    <editor active="true" />
     <layout>
       <window_info id="Favorites" order="0" side_tool="true" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info id="Version Control" order="2" sideWeight="0.4968017" type="SLIDING" weight="0.6231343" />
+      <window_info active="true" id="Version Control" order="2" sideWeight="0.4968017" type="SLIDING" visible="true" weight="0.6231343" />
       <window_info id="REST Client" order="3" type="SLIDING" weight="0.8251599" />
       <window_info anchor="bottom" id="Event Log" order="0" sideWeight="0.50319827" side_tool="true" weight="0.3286334" />
       <window_info anchor="bottom" id="Unit Tests" order="1" />
@@ -510,18 +538,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="474">
           <caret line="67" column="9" selection-start-line="67" selection-start-column="9" selection-end-line="67" selection-end-column="9" />
-          <folding>
-            <marker date="1535330856702" expanded="false" signature="6:72" ph="..." />
-            <marker date="1535330856702" expanded="true" signature="107:1979" ph="{...}" />
-            <marker date="1535330856702" expanded="true" signature="169:1977" ph="{...}" />
-            <marker date="1535330856702" expanded="true" signature="233:481" ph="{...}" />
-            <marker date="1535330856702" expanded="true" signature="547:1784" ph="{...}" />
-            <marker date="1535330856702" expanded="true" signature="968:1709" ph="{...}" />
-            <marker date="1535330856702" expanded="true" signature="1117:1662" ph="{...}" />
-            <marker date="1535330856702" expanded="true" signature="1175:1619" ph="{...}" />
-            <marker date="1535330856702" expanded="true" signature="1242:1347" ph="{...}" />
-            <marker date="1535330856702" expanded="true" signature="1854:1971" ph="{...}" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -529,28 +545,19 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="255">
           <caret line="27" column="81" lean-forward="true" selection-start-line="27" selection-start-column="81" selection-end-line="27" selection-end-column="81" />
-          <folding>
-            <marker date="1535330860291" expanded="false" signature="6:361" ph="..." />
-            <marker date="1535330860291" expanded="true" signature="379:1241" ph="{...}" />
-            <marker date="1535330860291" expanded="true" signature="406:1239" ph="{...}" />
-            <marker date="1535330860291" expanded="true" signature="465:528" ph="{...}" />
-            <marker date="1535330860291" expanded="true" signature="751:884" ph="{...}" />
-            <marker date="1535330860291" expanded="true" signature="1072:1233" ph="{...}" />
-            <marker date="1535330860291" expanded="true" signature="1119:1196" ph="{...}" />
-          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/WebApp/Controllers/PermutationController.cs">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="300">
-          <caret line="22" column="1" lean-forward="true" selection-start-line="22" selection-start-column="1" selection-end-line="22" selection-end-column="1" />
+        <state relative-caret-position="180">
+          <caret line="14" column="8" lean-forward="true" selection-start-line="14" selection-start-column="8" selection-end-line="14" selection-end-column="8" />
           <folding>
-            <marker date="1535330860285" expanded="false" signature="6:82" ph="..." />
-            <marker date="1535330860285" expanded="true" signature="112:667" ph="{...}" />
-            <marker date="1535330860285" expanded="true" signature="166:665" ph="{...}" />
-            <marker date="1535330860285" expanded="true" signature="320:396" ph="{...}" />
-            <marker date="1535330860285" expanded="true" signature="500:659" ph="{...}" />
+            <marker date="1535331389586" expanded="false" signature="6:82" ph="..." />
+            <marker date="1535331389586" expanded="true" signature="112:667" ph="{...}" />
+            <marker date="1535331389586" expanded="true" signature="166:665" ph="{...}" />
+            <marker date="1535331389586" expanded="true" signature="320:396" ph="{...}" />
+            <marker date="1535331389586" expanded="true" signature="500:659" ph="{...}" />
           </folding>
         </state>
       </provider>
