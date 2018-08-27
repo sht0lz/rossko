@@ -3,7 +3,7 @@ using Domain;
 
 namespace AppServices.Permutation
 {
-    public interface IPermutationService
+    public interface IPermutationsService
     {
         Permutations GetPermutations(string input);
     }

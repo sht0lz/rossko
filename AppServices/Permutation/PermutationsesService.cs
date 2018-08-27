@@ -5,7 +5,7 @@ using Domain;
 
 namespace AppServices.Permutation
 {
-    public class PermutationService:IPermutationService
+    public class PermutationsesService:IPermutationsService
     {
         public Permutations GetPermutations(string input)
         {

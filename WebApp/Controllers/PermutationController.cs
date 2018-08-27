@@ -6,17 +6,17 @@ namespace WebApp.Controllers
 {
     public class PermutationController : Controller
     {
-        private readonly IPermutationService _permutation;
+        private readonly IPermutationsService _permutationsService;
 
-        public PermutationController()
+        public PermutationController(IPermutationsService permutationsService)
         {
-            _permutation = new PermutationService();
+            _permutationsService = permutationsService;
         }
         
         [HttpPost("permutations")]
         public PermutationsModel Permutations(string input)
         {
-            var permutations = _permutation.GetPermutations(input);
+            var permutations = _permutationsService.GetPermutations(input);
             return PermutationsModel.FromObject(permutations);
         }
     }

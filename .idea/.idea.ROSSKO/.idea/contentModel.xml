@@ -15,8 +15,8 @@
           </e>
         </e>
         <e p="Permutation" t="Include">
-          <e p="IPermutationService.cs" t="Include" />
-          <e p="PermutationService.cs" t="Include" />
+          <e p="IPermutationsService.cs" t="Include" />
+          <e p="PermutationsesService.cs" t="Include" />
         </e>
       </e>
       <e p="Domain" t="IncludeRecursive">
