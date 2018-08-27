@@ -12645,11 +12645,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Dev\\TestTasks\\ROSSKO\\WebApp\\WebApp.csproj",
-      "projectName": "WebApp",
-      "projectPath": "C:\\Dev\\TestTasks\\ROSSKO\\WebApp\\WebApp.csproj",
+      "projectUniqueName": "C:\\Dev\\TestTasks\\ROSSKO\\Api\\Api.csproj",
+      "projectName": "Api",
+      "projectPath": "C:\\Dev\\TestTasks\\ROSSKO\\Api\\Api.csproj",
       "packagesPath": "C:\\Users\\Shtolz\\.nuget\\packages\\",
-      "outputPath": "C:\\Dev\\TestTasks\\ROSSKO\\WebApp\\obj\\",
+      "outputPath": "C:\\Dev\\TestTasks\\ROSSKO\\Api\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"

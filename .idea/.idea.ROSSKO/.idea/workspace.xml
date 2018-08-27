@@ -1,30 +1,58 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="99da320c-9d3d-4a4c-8578-7f2d8d74a1a8" name="Default Changelist" comment="Количество перестановок с повторениями">
-      <change afterPath="$PROJECT_DIR$/AppServices/Permutation/IPermutationsCalculator.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/AppServices/Permutation/PermutationsService.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Domain/Interfaces/ICache.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Domain/Interfaces/IPermutationsCache.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Infrastructure/Infrastructure.csproj" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Infrastructure/PermutationsCache.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Infrastructure/obj/Debug/netcoreapp2.0/Infrastructure.AssemblyInfo.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Infrastructure/obj/Debug/netcoreapp2.0/Infrastructure.AssemblyInfoInputs.cache" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Infrastructure/obj/Infrastructure.csproj.nuget.cache" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Infrastructure/obj/Infrastructure.csproj.nuget.g.props" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Infrastructure/obj/Infrastructure.csproj.nuget.g.targets" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Infrastructure/obj/project.assets.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Infrastructure/obj/project.packagespec.json" afterDir="false" />
+    <list default="true" id="99da320c-9d3d-4a4c-8578-7f2d8d74a1a8" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/Api/Api.csproj" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Api/Controllers/PermutationController.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Api/Model/PermutationsModel.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Api/Program.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Api/Startup.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Api/appsettings.Development.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Api/appsettings.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Api/bin/Debug/netcoreapp2.0/AppServices.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Api/bin/Debug/netcoreapp2.0/AppServices.pdb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Api/bin/Debug/netcoreapp2.0/Domain.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Api/bin/Debug/netcoreapp2.0/Domain.pdb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Api/bin/Debug/netcoreapp2.0/Infrastructure.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Api/bin/Debug/netcoreapp2.0/Infrastructure.pdb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Api/bin/Debug/netcoreapp2.0/WebApp.deps.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Api/bin/Debug/netcoreapp2.0/WebApp.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Api/bin/Debug/netcoreapp2.0/WebApp.pdb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Api/bin/Debug/netcoreapp2.0/WebApp.runtimeconfig.dev.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Api/bin/Debug/netcoreapp2.0/WebApp.runtimeconfig.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Api/obj/Api.csproj.nuget.cache" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Api/obj/Api.csproj.nuget.g.props" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Api/obj/Api.csproj.nuget.g.targets" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Api/obj/Debug/netcoreapp2.0/WebApp.AssemblyInfo.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Api/obj/Debug/netcoreapp2.0/WebApp.AssemblyInfoInputs.cache" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Api/obj/Debug/netcoreapp2.0/WebApp.csproj.CopyComplete" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Api/obj/Debug/netcoreapp2.0/WebApp.csproj.CoreCompileInputs.cache" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Api/obj/Debug/netcoreapp2.0/WebApp.csproj.FileListAbsolute.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Api/obj/Debug/netcoreapp2.0/WebApp.csprojResolveAssemblyReference.cache" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Api/obj/Debug/netcoreapp2.0/WebApp.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Api/obj/Debug/netcoreapp2.0/WebApp.pdb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Api/obj/WebApp.csproj.nuget.cache" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Api/obj/WebApp.csproj.nuget.g.props" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Api/obj/WebApp.csproj.nuget.g.targets" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Api/obj/project.assets.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Api/obj/project.packagespec.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.ROSSKO/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.ROSSKO/.idea/contentModel.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.ROSSKO/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.ROSSKO/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/AppServices/Permutation/PermutationsesService.cs" beforeDir="false" afterPath="$PROJECT_DIR$/AppServices/Permutation/PermutationsCalculator.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/ROSSKO.sln" beforeDir="false" afterPath="$PROJECT_DIR$/ROSSKO.sln" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ROSSKO/WebApp/Controllers/ValuesController.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/WebApp/Startup.cs" beforeDir="false" afterPath="$PROJECT_DIR$/WebApp/Startup.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/WebApp/WebApp.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/WebApp/WebApp.csproj" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/WebApp/obj/WebApp.csproj.nuget.cache" beforeDir="false" afterPath="$PROJECT_DIR$/WebApp/obj/WebApp.csproj.nuget.cache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/WebApp/obj/project.assets.json" beforeDir="false" afterPath="$PROJECT_DIR$/WebApp/obj/project.assets.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/WebApp/obj/project.packagespec.json" beforeDir="false" afterPath="$PROJECT_DIR$/WebApp/obj/project.packagespec.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/WebApp/Controllers/PermutationController.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/WebApp/Model/PermutationsModel.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/WebApp/Program.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/WebApp/Startup.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/WebApp/WebApp.csproj" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/WebApp/appsettings.Development.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/WebApp/appsettings.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/WebApp/obj/Debug/netcoreapp2.0/WebApp.AssemblyInfo.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/WebApp/obj/Debug/netcoreapp2.0/WebApp.AssemblyInfoInputs.cache" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/WebApp/obj/WebApp.csproj.nuget.cache" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/WebApp/obj/WebApp.csproj.nuget.g.props" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/WebApp/obj/WebApp.csproj.nuget.g.targets" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/WebApp/obj/project.assets.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/WebApp/obj/project.packagespec.json" beforeDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.idea/httpRequests/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -45,101 +73,59 @@
       <usages-collector id="statistics.vcs.git.usages">
         <counts>
           <entry key="git.branch.checkout.local" value="1" />
-          <entry key="git.branch.create.new" value="2" />
+          <entry key="git.branch.create.new" value="3" />
           <entry key="git.branch.delete.local" value="1" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
           <entry key="cs" value="1368" />
-          <entry key="txt" value="77" />
+          <entry key="sln" value="15" />
+          <entry key="txt" value="136" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
           <entry key="C#" value="1368" />
-          <entry key="PLAIN_TEXT" value="77" />
+          <entry key="PLAIN_TEXT" value="136" />
+          <entry key="Solution File" value="15" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
-          <entry key="cs" value="42" />
+          <entry key="cs" value="44" />
+          <entry key="csproj" value="1" />
+          <entry key="sln" value="1" />
           <entry key="sql" value="1" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="C#" value="42" />
+          <entry key="C#" value="44" />
+          <entry key="Csproj" value="1" />
           <entry key="Scratch" value="1" />
+          <entry key="Solution File" value="1" />
         </counts>
       </usages-collector>
     </session>
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/AppServices/Permutation/PermutationsService.cs">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="270">
-              <caret line="22" column="12" selection-start-line="22" selection-start-column="12" selection-end-line="22" selection-end-column="12" />
-              <folding>
-                <marker date="1535335984864" expanded="false" signature="6:97" ph="..." />
-                <marker date="1535335984864" expanded="true" signature="132:1086" ph="{...}" />
-                <marker date="1535335984864" expanded="true" signature="192:1084" ph="{...}" />
-                <marker date="1535335984864" expanded="true" signature="410:496" ph="{...}" />
-                <marker date="1535335984864" expanded="true" signature="563:1078" ph="{...}" />
-                <marker date="1535335984864" expanded="true" signature="672:742" ph="{...}" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/WebApp/Controllers/PermutationController.cs">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="240">
-              <caret line="18" column="12" selection-start-line="18" selection-start-column="12" selection-end-line="18" selection-end-column="12" />
-              <folding>
-                <marker date="1535331579244" expanded="false" signature="6:82" ph="..." />
-                <marker date="1535331579244" expanded="true" signature="112:667" ph="{...}" />
-                <marker date="1535331579244" expanded="true" signature="166:665" ph="{...}" />
-                <marker date="1535331579244" expanded="true" signature="320:396" ph="{...}" />
-                <marker date="1535331579244" expanded="true" signature="500:659" ph="{...}" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/Infrastructure/PermutationsCache.cs">
+        <entry file="file://$PROJECT_DIR$/AppServices/Permutation/PermutationsCalculator.cs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="255">
-              <caret line="20" column="115" lean-forward="true" selection-start-line="20" selection-start-column="115" selection-end-line="20" selection-end-column="115" />
+            <state relative-caret-position="45">
+              <caret line="16" column="34" lean-forward="true" selection-start-line="16" selection-start-column="34" selection-end-line="16" selection-end-column="34" />
               <folding>
-                <marker date="1535336681865" expanded="false" signature="6:88" ph="..." />
-                <marker date="1535336681865" expanded="true" signature="114:830" ph="{...}" />
-                <marker date="1535336681865" expanded="true" signature="171:828" ph="{...}" />
-                <marker date="1535336681865" expanded="true" signature="267:424" ph="{...}" />
-                <marker date="1535336681865" expanded="true" signature="477:671" ph="{...}" />
-                <marker date="1535336681865" expanded="true" signature="728:822" ph="{...}" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/WebApp/Startup.cs">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="300">
-              <caret line="32" selection-start-line="32" selection-end-line="32" />
-              <folding>
-                <marker date="1535335971891" expanded="false" signature="6:408" ph="..." />
-                <marker date="1535335971891" expanded="true" signature="426:1439" ph="{...}" />
-                <marker date="1535335971891" expanded="true" signature="453:1437" ph="{...}" />
-                <marker date="1535335971891" expanded="true" signature="512:575" ph="{...}" />
-                <marker date="1535335971891" expanded="true" signature="798:1082" ph="{...}" />
-                <marker date="1535335971891" expanded="true" signature="1270:1431" ph="{...}" />
-                <marker date="1535335971891" expanded="true" signature="1317:1394" ph="{...}" />
+                <marker date="1535332569082" expanded="false" signature="6:32" ph="..." />
+                <marker date="1535332569082" expanded="true" signature="67:1636" ph="{...}" />
+                <marker date="1535332569082" expanded="true" signature="134:1634" ph="{...}" />
+                <marker date="1535332569082" expanded="true" signature="196:1433" ph="{...}" />
+                <marker date="1535332569082" expanded="true" signature="617:1358" ph="{...}" />
+                <marker date="1535332569082" expanded="true" signature="766:1311" ph="{...}" />
+                <marker date="1535332569082" expanded="true" signature="824:1268" ph="{...}" />
+                <marker date="1535332569082" expanded="true" signature="891:996" ph="{...}" />
+                <marker date="1535332569082" expanded="true" signature="1511:1628" ph="{...}" />
               </folding>
             </state>
           </provider>
@@ -151,20 +137,16 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
     <option name="RECENT_BRANCH_BY_REPOSITORY">
       <map>
-        <entry key="$PROJECT_DIR$" value="Api" />
+        <entry key="$PROJECT_DIR$" value="master" />
       </map>
     </option>
   </component>
   <component name="HighlightingSettingsPerFile">
-    <setting file="file://$PROJECT_DIR$/WebApp/Startup.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/AppServices/obj/Debug/netcoreapp2.0/AppServices.AssemblyInfo.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/WebApp/Program.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/WebApp/Controllers/PermutationController.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Domain/obj/Debug/netcoreapp2.0/Domain.AssemblyInfo.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Domain/Permutations.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/AppServices/Permutation/IPermutationsService.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/AppServices/Permutation/PermutationsService.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/WebApp/Model/PermutationsModel.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Domain/Interfaces/IPermutationsCache.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Infrastructure/PermutationsCache.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/AppServices/Permutation/IPermutationsCalculator.cs" root0="FORCE_HIGHLIGHTING" />
@@ -172,9 +154,10 @@
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/51C22D6F-BC23-41DD-8525-4DF19ED44462/fa/4fd9e851/ExecutionContext.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Domain/Interfaces/ICache.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/51C22D6F-BC23-41DD-8525-4DF19ED44462/6b/a80e4530/RuntimeType.cs" root0="SKIP_HIGHLIGHTING" />
-    <setting file="dummy://restClient/response65.txt" root0="SKIP_INSPECTION" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/51C22D6F-BC23-41DD-8525-4DF19ED44462/06/6ddba1d7/AsyncMethodBuilderCore.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/882C7DDC-3607-4EF5-A584-61262F32B442/07/646bdc92/ControllerActionInvoker.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/metadata/29E20D1E-D496-4AC3-B854-136445BEE14D/81/7f8b045a/MvcServiceCollectionExtensions.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="dummy://restClient/response107.json" root0="SKIP_INSPECTION" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
@@ -202,6 +185,7 @@
         <option value="$PROJECT_DIR$/Domain/Interfaces/IPermutationsCache.cs" />
         <option value="$PROJECT_DIR$/WebApp/Startup.cs" />
         <option value="$PROJECT_DIR$/Infrastructure/PermutationsCache.cs" />
+        <option value="$PROJECT_DIR$/ROSSKO.sln" />
       </list>
     </option>
   </component>
@@ -229,22 +213,6 @@
               <item name="Project" type="784c90a0:SolutionExplorerRootNode" />
               <item name="ROSSKO" type="24d0babc:SolutionExplorerModelNode" />
             </path>
-            <path>
-              <item name="Project" type="784c90a0:SolutionExplorerRootNode" />
-              <item name="ROSSKO" type="24d0babc:SolutionExplorerModelNode" />
-              <item name="Infrastructure" type="24d0babc:SolutionExplorerModelNode" />
-            </path>
-            <path>
-              <item name="Project" type="784c90a0:SolutionExplorerRootNode" />
-              <item name="ROSSKO" type="24d0babc:SolutionExplorerModelNode" />
-              <item name="WebApp" type="24d0babc:SolutionExplorerModelNode" />
-            </path>
-            <path>
-              <item name="Project" type="784c90a0:SolutionExplorerRootNode" />
-              <item name="ROSSKO" type="24d0babc:SolutionExplorerModelNode" />
-              <item name="WebApp" type="24d0babc:SolutionExplorerModelNode" />
-              <item name="Controllers" type="24d0babc:SolutionExplorerModelNode" />
-            </path>
           </expand>
           <select />
         </subPane>
@@ -261,6 +229,62 @@
   <component name="RestClientSettings">
     <option name="REQUEST_HISTORY">
       <list>
+        <RestClientRequest>
+          <option name="httpMethod" value="POST" />
+          <option name="urlBase" value="http://localhost:5000" />
+          <option name="urlPath" value="/permutations" />
+          <option name="headers">
+            <list>
+              <KeyValuePair>
+                <option name="key" value="Accept" />
+                <option name="value" value="*/*" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="Cache-Control" />
+                <option name="value" value="no-cache" />
+              </KeyValuePair>
+            </list>
+          </option>
+          <option name="parameters">
+            <list>
+              <KeyValuePair>
+                <option name="key" value="input" />
+                <option name="value" value="AABABBACC" />
+              </KeyValuePair>
+            </list>
+          </option>
+          <option name="parametersEnabled" value="true" />
+          <option name="textToSend" value="" />
+          <option name="filesToSend" value="" />
+        </RestClientRequest>
+        <RestClientRequest>
+          <option name="httpMethod" value="POST" />
+          <option name="urlBase" value="http://localhost:5000" />
+          <option name="urlPath" value="/permutations" />
+          <option name="headers">
+            <list>
+              <KeyValuePair>
+                <option name="key" value="Accept" />
+                <option name="value" value="*/*" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="Cache-Control" />
+                <option name="value" value="no-cache" />
+              </KeyValuePair>
+            </list>
+          </option>
+          <option name="parameters">
+            <list>
+              <KeyValuePair>
+                <option name="key" value="input" />
+                <option name="value" value="AAABBACC" />
+              </KeyValuePair>
+            </list>
+          </option>
+          <option name="parametersEnabled" value="true" />
+          <option name="textToSend" value="" />
+          <option name="filesToSend" value="" />
+        </RestClientRequest>
         <RestClientRequest>
           <option name="httpMethod" value="POST" />
           <option name="urlBase" value="http://localhost:5000" />
@@ -360,7 +384,25 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected=".NET Project.WebApp">
+  <component name="RunManager" selected=".NET Project.Api">
+    <configuration name="Api" type="DotNetProject" factoryName=".NET Project" temporary="true">
+      <option name="EXE_PATH" value="$PROJECT_DIR$/Api/bin/Debug/netcoreapp2.0/Api.dll" />
+      <option name="PROGRAM_PARAMETERS" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Api" />
+      <option name="PASS_PARENT_ENVS" value="1" />
+      <option name="USE_EXTERNAL_CONSOLE" value="0" />
+      <option name="USE_MONO" value="0" />
+      <option name="RUNTIME_ARGUMENTS" value="" />
+      <option name="PROJECT_PATH" value="$PROJECT_DIR$/Api/Api.csproj" />
+      <option name="PROJECT_EXE_PATH_TRACKING" value="1" />
+      <option name="PROJECT_ARGUMENTS_TRACKING" value="1" />
+      <option name="PROJECT_WORKING_DIRECTORY_TRACKING" value="1" />
+      <option name="PROJECT_KIND" value="DotNetCore" />
+      <option name="PROJECT_TFM" value=".NETCoreApp,Version=v2.0" />
+      <method v="2">
+        <option name="Build" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="Default" type="DotNetProject" factoryName=".NET Project">
       <option name="EXE_PATH" value="" />
       <option name="PROGRAM_PARAMETERS" value="" />
@@ -420,14 +462,15 @@
       <item itemvalue=".NET Project.Default" />
       <item itemvalue=".NET Project.Test" />
       <item itemvalue=".NET Project.WebApp" />
+      <item itemvalue=".NET Project.Api" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue=".NET Project.Api" />
         <item itemvalue=".NET Project.WebApp" />
         <item itemvalue=".NET Project.Test" />
         <item itemvalue=".NET Project.WebApp" />
         <item itemvalue=".NET Project.Test" />
-        <item itemvalue=".NET Project.WebApp" />
       </list>
     </recent_temporary>
   </component>
@@ -473,11 +516,25 @@
       <option name="project" value="LOCAL" />
       <updated>1535329806350</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="Добавил кеш">
+      <created>1535336914410</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1535336914410</updated>
+    </task>
+    <task id="LOCAL-00006" summary="Удалил лишний контроллер">
+      <created>1535336940220</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1535336940220</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="12080000" />
+    <option name="totallyTimeSpent" value="13806000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -490,7 +547,6 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
-    <editor active="true" />
     <layout>
       <window_info id="Favorites" order="0" side_tool="true" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
@@ -502,15 +558,15 @@
       <window_info anchor="bottom" id="NuGet" order="3" sideWeight="0.4978678" weight="0.6258134" />
       <window_info anchor="bottom" id="Message" order="4" />
       <window_info anchor="bottom" id="Find" order="5" />
-      <window_info anchor="bottom" id="Run" order="6" weight="0.3286334" />
-      <window_info active="true" anchor="bottom" id="Debug" order="7" visible="true" weight="0.3991323" />
+      <window_info anchor="bottom" id="Run" order="6" visible="true" weight="0.3286334" />
+      <window_info anchor="bottom" id="Debug" order="7" weight="0.3991323" />
       <window_info anchor="bottom" id="Cvs" order="8" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="9" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="10" />
       <window_info anchor="bottom" id="Database Changes" order="11" show_stripe_button="false" />
       <window_info anchor="bottom" id="Docker" order="12" show_stripe_button="false" />
       <window_info anchor="bottom" id="Build" order="13" weight="0.329718" />
-      <window_info anchor="right" content_ui="combo" id="Project" order="0" visible="true" weight="0.17963752" />
+      <window_info active="true" anchor="right" content_ui="combo" id="Project" order="0" visible="true" weight="0.17963752" />
       <window_info anchor="right" id="Errors In Solution" order="1" weight="0.32995737" />
       <window_info anchor="right" id="Database" order="2" />
       <window_info anchor="right" id="Commander" order="3" weight="0.4" />
@@ -582,7 +638,9 @@
     <MESSAGE value="добавил проекты" />
     <MESSAGE value="Количество перестановок с повторениями" />
     <MESSAGE value="Прокинул сервис в контроллер" />
-    <option name="LAST_COMMIT_MESSAGE" value="Прокинул сервис в контроллер" />
+    <MESSAGE value="Добавил кеш" />
+    <MESSAGE value="Удалил лишний контроллер" />
+    <option name="LAST_COMMIT_MESSAGE" value="Удалил лишний контроллер" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -692,34 +750,7 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/WebApp/Program.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <folding>
-            <marker date="1535297881971" expanded="false" signature="6:255" ph="..." />
-            <marker date="1535297881971" expanded="true" signature="273:594" ph="{...}" />
-            <marker date="1535297881971" expanded="true" signature="300:592" ph="{...}" />
-            <marker date="1535297881971" expanded="true" signature="353:411" ph="{...}" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/AppServices/Permutation/PermutationsCalculator.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="5" column="34" selection-start-line="5" selection-start-column="34" selection-end-line="5" selection-end-column="34" />
-          <folding>
-            <marker date="1535332569082" expanded="false" signature="6:32" ph="..." />
-            <marker date="1535332569082" expanded="true" signature="67:1636" ph="{...}" />
-            <marker date="1535332569082" expanded="true" signature="134:1634" ph="{...}" />
-            <marker date="1535332569082" expanded="true" signature="196:1433" ph="{...}" />
-            <marker date="1535332569082" expanded="true" signature="617:1358" ph="{...}" />
-            <marker date="1535332569082" expanded="true" signature="766:1311" ph="{...}" />
-            <marker date="1535332569082" expanded="true" signature="824:1268" ph="{...}" />
-            <marker date="1535332569082" expanded="true" signature="891:996" ph="{...}" />
-            <marker date="1535332569082" expanded="true" signature="1511:1628" ph="{...}" />
-          </folding>
-        </state>
-      </provider>
+      <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/AppServices/Permutation/IPermutationCache.cs">
       <provider selected="true" editor-type-id="text-editor">
@@ -757,15 +788,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="300">
           <caret line="32" selection-start-line="32" selection-end-line="32" />
-          <folding>
-            <marker date="1535335971891" expanded="false" signature="6:408" ph="..." />
-            <marker date="1535335971891" expanded="true" signature="426:1439" ph="{...}" />
-            <marker date="1535335971891" expanded="true" signature="453:1437" ph="{...}" />
-            <marker date="1535335971891" expanded="true" signature="512:575" ph="{...}" />
-            <marker date="1535335971891" expanded="true" signature="798:1082" ph="{...}" />
-            <marker date="1535335971891" expanded="true" signature="1270:1431" ph="{...}" />
-            <marker date="1535335971891" expanded="true" signature="1317:1394" ph="{...}" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -819,24 +841,25 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/WebApp/Controllers/PermutationController.cs">
+    <entry file="file://$PROJECT_DIR$/Infrastructure/PermutationsCache.cs">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="240">
-          <caret line="18" column="12" selection-start-line="18" selection-start-column="12" selection-end-line="18" selection-end-column="12" />
+        <state relative-caret-position="270">
+          <caret line="21" column="8" selection-start-line="21" selection-start-column="8" selection-end-line="21" selection-end-column="8" />
           <folding>
-            <marker date="1535331579244" expanded="false" signature="6:82" ph="..." />
-            <marker date="1535331579244" expanded="true" signature="112:667" ph="{...}" />
-            <marker date="1535331579244" expanded="true" signature="166:665" ph="{...}" />
-            <marker date="1535331579244" expanded="true" signature="320:396" ph="{...}" />
-            <marker date="1535331579244" expanded="true" signature="500:659" ph="{...}" />
+            <marker date="1535336681865" expanded="false" signature="6:88" ph="..." />
+            <marker date="1535336681865" expanded="true" signature="114:830" ph="{...}" />
+            <marker date="1535336681865" expanded="true" signature="171:828" ph="{...}" />
+            <marker date="1535336681865" expanded="true" signature="267:424" ph="{...}" />
+            <marker date="1535336681865" expanded="true" signature="477:671" ph="{...}" />
+            <marker date="1535336681865" expanded="true" signature="728:822" ph="{...}" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/AppServices/Permutation/PermutationsService.cs">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="270">
-          <caret line="22" column="12" selection-start-line="22" selection-start-column="12" selection-end-line="22" selection-end-column="12" />
+        <state relative-caret-position="409">
+          <caret line="35" column="8" selection-start-line="35" selection-start-column="8" selection-end-line="35" selection-end-column="8" />
           <folding>
             <marker date="1535335984864" expanded="false" signature="6:97" ph="..." />
             <marker date="1535335984864" expanded="true" signature="132:1086" ph="{...}" />
@@ -848,17 +871,44 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Infrastructure/PermutationsCache.cs">
+    <entry file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/882C7DDC-3607-4EF5-A584-61262F32B442/07/646bdc92/ControllerActionInvoker.cs">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="20" column="115" lean-forward="true" selection-start-line="20" selection-start-column="115" selection-end-line="20" selection-end-column="115" />
+        <state relative-caret-position="176">
+          <caret line="249" column="13" selection-start-line="249" selection-start-column="13" selection-end-line="249" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/WebApp/Controllers/PermutationController.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="300">
+          <caret line="22" column="1" lean-forward="true" selection-start-line="22" selection-start-column="1" selection-end-line="22" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/WebApp/WebApp.csproj">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ROSSKO.sln">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="300">
+          <caret line="20" column="86" lean-forward="true" selection-start-line="20" selection-start-column="86" selection-end-line="20" selection-end-column="86" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/AppServices/Permutation/PermutationsCalculator.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="45">
+          <caret line="16" column="34" lean-forward="true" selection-start-line="16" selection-start-column="34" selection-end-line="16" selection-end-column="34" />
           <folding>
-            <marker date="1535336681865" expanded="false" signature="6:88" ph="..." />
-            <marker date="1535336681865" expanded="true" signature="114:830" ph="{...}" />
-            <marker date="1535336681865" expanded="true" signature="171:828" ph="{...}" />
-            <marker date="1535336681865" expanded="true" signature="267:424" ph="{...}" />
-            <marker date="1535336681865" expanded="true" signature="477:671" ph="{...}" />
-            <marker date="1535336681865" expanded="true" signature="728:822" ph="{...}" />
+            <marker date="1535332569082" expanded="false" signature="6:32" ph="..." />
+            <marker date="1535332569082" expanded="true" signature="67:1636" ph="{...}" />
+            <marker date="1535332569082" expanded="true" signature="134:1634" ph="{...}" />
+            <marker date="1535332569082" expanded="true" signature="196:1433" ph="{...}" />
+            <marker date="1535332569082" expanded="true" signature="617:1358" ph="{...}" />
+            <marker date="1535332569082" expanded="true" signature="766:1311" ph="{...}" />
+            <marker date="1535332569082" expanded="true" signature="824:1268" ph="{...}" />
+            <marker date="1535332569082" expanded="true" signature="891:996" ph="{...}" />
+            <marker date="1535332569082" expanded="true" signature="1511:1628" ph="{...}" />
           </folding>
         </state>
       </provider>
