@@ -3,6 +3,8 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
 using AppServices.Permutation;
+using Domain.Interfaces;
+using Infrastructure;
 using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Hosting;
 using Microsoft.Extensions.Configuration;
@@ -25,7 +27,9 @@ namespace WebApp
         public void ConfigureServices(IServiceCollection services)
         {
             services.AddMvc();
-            services.AddTransient<IPermutationsService, PermutationsesService>();
+            services.AddScoped<IPermutationsCalculator, PermutationsCalculator>();
+            services.AddScoped<IPermutationsCache, PermutationsCache>();
+            services.AddScoped<IPermutationsService, PermutationsService>();
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.

@@ -1,22 +1,11 @@
-﻿using System;
-using System.Diagnostics;
+using System;
 using System.Text;
-using Domain;
 
 namespace AppServices.Permutation
 {
-    public class PermutationsesService:IPermutationsService
+    public class PermutationsCalculator: IPermutationsCalculator
     {
-        public Permutations GetPermutations(string input)
-        {
-            var sw = new Stopwatch();
-            sw.Start();
-            var number = NumberOfPermutations(input);
-            sw.Stop();
-            return new Permutations(){PermutationNumber = number, Elapsed = sw.Elapsed};
-        }
-        
-        private Int32 NumberOfPermutations(string input)
+        public Int32 NumberOfPermutations(string input)
         {
             StringBuilder sb = new StringBuilder(input);
             Int32 i = 0; 
@@ -59,7 +48,7 @@ namespace AppServices.Permutation
             }
             return factorialOfNumber / multiplicationFactorials;
         }
-
+        
         private void Swap(StringBuilder str, Int32 idx1, Int32 idx2)
         {
             var tmp = str[idx1];
