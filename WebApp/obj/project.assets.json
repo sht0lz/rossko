@@ -4746,6 +4746,29 @@
         "runtime": {
           "lib/netstandard1.3/Microsoft.WindowsAzure.Storage.dll": {}
         }
+      },
+      "AppServices/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v2.0",
+        "dependencies": {
+          "Domain": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/AppServices.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/AppServices.dll": {}
+        }
+      },
+      "Domain/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v2.0",
+        "compile": {
+          "bin/placeholder/Domain.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Domain.dll": {}
+        }
       }
     }
   },
@@ -12526,10 +12549,22 @@
         "windowsazure.storage.8.1.4.nupkg.sha512",
         "windowsazure.storage.nuspec"
       ]
+    },
+    "AppServices/1.0.0": {
+      "type": "project",
+      "path": "../AppServices/AppServices.csproj",
+      "msbuildProject": "../AppServices/AppServices.csproj"
+    },
+    "Domain/1.0.0": {
+      "type": "project",
+      "path": "../Domain/Domain.csproj",
+      "msbuildProject": "../Domain/Domain.csproj"
     }
   },
   "projectFileDependencyGroups": {
     ".NETCoreApp,Version=v2.0": [
+      "AppServices >= 1.0.0",
+      "Domain >= 1.0.0",
       "Microsoft.AspNetCore.All >= 2.0.5",
       "Microsoft.NETCore.App >= 2.0.0"
     ]
@@ -12567,7 +12602,14 @@
       },
       "frameworks": {
         "netcoreapp2.0": {
-          "projectReferences": {}
+          "projectReferences": {
+            "C:\\Dev\\TestTasks\\ROSSKO\\AppServices\\AppServices.csproj": {
+              "projectPath": "C:\\Dev\\TestTasks\\ROSSKO\\AppServices\\AppServices.csproj"
+            },
+            "C:\\Dev\\TestTasks\\ROSSKO\\Domain\\Domain.csproj": {
+              "projectPath": "C:\\Dev\\TestTasks\\ROSSKO\\Domain\\Domain.csproj"
+            }
+          }
         }
       },
       "warningProperties": {

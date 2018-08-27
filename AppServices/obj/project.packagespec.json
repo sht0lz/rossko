@@ -1,10 +1,10 @@
 ﻿{
   "version": "1.0.0",
   "restore": {
-    "projectUniqueName": "C:\\Dev\\TestTasks\\ROSSKO\\WebApp\\WebApp.csproj",
-    "projectName": "WebApp",
-    "projectPath": "C:\\Dev\\TestTasks\\ROSSKO\\WebApp\\WebApp.csproj",
-    "outputPath": "C:\\Dev\\TestTasks\\ROSSKO\\WebApp\\obj\\",
+    "projectUniqueName": "C:\\Dev\\TestTasks\\ROSSKO\\AppServices\\AppServices.csproj",
+    "projectName": "AppServices",
+    "projectPath": "C:\\Dev\\TestTasks\\ROSSKO\\AppServices\\AppServices.csproj",
+    "outputPath": "C:\\Dev\\TestTasks\\ROSSKO\\AppServices\\obj\\",
     "projectStyle": "PackageReference",
     "fallbackFolders": [
       "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
@@ -15,9 +15,6 @@
     "frameworks": {
       "netcoreapp2.0": {
         "projectReferences": {
-          "C:\\Dev\\TestTasks\\ROSSKO\\AppServices\\AppServices.csproj": {
-            "projectPath": "C:\\Dev\\TestTasks\\ROSSKO\\AppServices\\AppServices.csproj"
-          },
           "C:\\Dev\\TestTasks\\ROSSKO\\Domain\\Domain.csproj": {
             "projectPath": "C:\\Dev\\TestTasks\\ROSSKO\\Domain\\Domain.csproj"
           }
@@ -33,10 +30,6 @@
   "frameworks": {
     "netcoreapp2.0": {
       "dependencies": {
-        "Microsoft.AspNetCore.All": {
-          "target": "Package",
-          "version": "[2.0.5, )"
-        },
         "Microsoft.NETCore.App": {
           "suppressParent": "All",
           "target": "Package",
