@@ -20,3 +20,17 @@
 | aab  | 3 (aab, aba, baa) 0,232  |
 
 Решение выложить на Github
+
+
+# Как запустить
+CMD
+переходим в корень репозитория, где лежит Dockerfile
+
+в командной строке выолняем `docker build -t rossko .`
+
+затем `docker-compose up`
+
+для вызова метода выполняем запрос
+метод: POST
+адрес: http://localhost:5100
+тело:  "input":"AABBA"
