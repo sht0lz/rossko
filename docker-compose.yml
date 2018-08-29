@@ -1,0 +1,21 @@
+version: '2'
+
+networks:
+  app-tier:
+    driver: bridge
+
+services:
+  redis:
+    image: 'bitnami/redis:latest'
+    environment:
+    - ALLOW_EMPTY_PASSWORD=yes
+    networks:
+    - app-tier
+  myapp:
+    image: 'rossko'
+    ports:
+    - "5100:5000"
+    environment:
+    - "redisConnectionString=redis:6379"
+    networks:
+    - app-tier
