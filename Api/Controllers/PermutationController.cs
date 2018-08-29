@@ -9,6 +9,7 @@ namespace Api.Controllers
     public class PermutationController : Controller
     {
         private readonly IPermutationsService _permutationsService;
+        private readonly int maxLength = 8;
 
         public PermutationController(IPermutationsService permutationsService)
         {
@@ -17,6 +18,18 @@ namespace Api.Controllers
 
         [HttpPost("permutations")]
         public IActionResult Permutations(string input)
+        {
+            IActionResult result = Validate(input);
+            if (result != null)
+            {
+                return result;
+            }
+            
+            var permutations = _permutationsService.GetPermutations(input);
+            return Ok(PermutationsModel.FromObject(permutations));
+        }
+
+        private IActionResult Validate(String input)
         {
             if (String.IsNullOrEmpty(input))
             {
@@ -28,8 +41,12 @@ namespace Api.Controllers
                 return BadRequest("Допускаются только цифры латинские буквы");
             }
             
-            var permutations = _permutationsService.GetPermutations(input);
-            return Ok(PermutationsModel.FromObject(permutations));
+            if (input.Length > maxLength)
+            {
+                return BadRequest("Максимальная длинна последовательности не должна быть больше 8 символов");
+            }
+
+            return null;
         }
     }
 }
