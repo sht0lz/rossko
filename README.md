@@ -31,6 +31,9 @@ CMD
 затем `docker-compose up`
 
 для вызова метода выполняем запрос
+
 метод: POST
+
 адрес: http://localhost:5100
+
 тело:  "input":"AABBA"
