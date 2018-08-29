@@ -12,6 +12,9 @@
         <e p="Controllers" t="Include">
           <e p="PermutationController.cs" t="Include" />
         </e>
+        <e p="extensions" t="Include">
+          <e p="StringExtension.cs" t="Include" />
+        </e>
         <e p="Model" t="Include">
           <e p="PermutationsModel.cs" t="Include" />
         </e>

@@ -1,4 +1,5 @@
 using System;
+using Api.Extensions;
 using Api.Model;
 using AppServices.Permutation;
 using Microsoft.AspNetCore.Mvc;
@@ -17,16 +18,18 @@ namespace Api.Controllers
         [HttpPost("permutations")]
         public IActionResult Permutations(string input)
         {
-            try
+            if (String.IsNullOrEmpty(input))
             {
-                var permutations = _permutationsService.GetPermutations(input);
-                return Ok(PermutationsModel.FromObject(permutations));
+                return BadRequest("Строка должна содержать символы");
             }
-            catch (Exception e)
+
+            if (!input.IsLatinAndNumberString())
             {
-                return BadRequest(e);
-                throw;
+                return BadRequest("Допускаются только цифры латинские буквы");
             }
+            
+            var permutations = _permutationsService.GetPermutations(input);
+            return Ok(PermutationsModel.FromObject(permutations));
         }
     }
 }
