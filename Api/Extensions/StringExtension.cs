@@ -8,7 +8,7 @@ namespace Api.Extensions
     {
         public static Boolean IsLatinAndNumberString(this String input)
         {
-            return Regex.IsMatch(input, "[^a-zA-Z0-9]");
+            return !Regex.IsMatch(input, "[^a-zA-Z0-9]");
         }
     }
 }
