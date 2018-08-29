@@ -1,9 +1,6 @@
-using AppServices.Permutation;
-
 namespace Domain.Interfaces
 {
-    public interface IPermutationsCache: ICache<string, Permutations>
+    public interface IPermutationsCache : ICache<string, Permutations>
     {
-        
     }
 }

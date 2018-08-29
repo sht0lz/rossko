@@ -43,6 +43,7 @@
           <e p="PermutationsService.cs" t="Include" />
         </e>
       </e>
+      <e p="Dockerfile" t="Include" />
       <e p="Domain" t="IncludeRecursive">
         <e p="bin" t="ExcludeRecursive" />
         <e p="Domain.csproj" t="IncludeRecursive" />

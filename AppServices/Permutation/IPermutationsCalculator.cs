@@ -1,9 +1,7 @@
-﻿using System;
-
-namespace AppServices.Permutation
+﻿namespace AppServices.Permutation
 {
     public interface IPermutationsCalculator
     {
-        Int32 NumberOfPermutations(string input);
+        int NumberOfPermutations(string input);
     }
 }

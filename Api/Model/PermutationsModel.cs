@@ -1,7 +1,6 @@
 using Domain;
-using Microsoft.AspNetCore.Mvc;
 
-namespace WebApp.Model
+namespace Api.Model
 {
     public class PermutationsModel
     {

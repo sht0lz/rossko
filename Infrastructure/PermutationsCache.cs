@@ -5,16 +5,16 @@ using StackExchange.Redis;
 
 namespace Infrastructure
 {
-    public class PermutationsCache: IPermutationsCache
+    public class PermutationsCache : IPermutationsCache
     {
         private readonly IDatabase _database;
-        
-        public PermutationsCache()
+
+        public PermutationsCache(string redisConnectionString)
         {
-            ConnectionMultiplexer redis = ConnectionMultiplexer.Connect("localhost:16379");
+            var redis = ConnectionMultiplexer.Connect(redisConnectionString);
             _database = redis.GetDatabase();
         }
-        
+
         public Permutations Get(string key)
         {
             var serializedObj = _database.StringGet(key);

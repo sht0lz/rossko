@@ -1,4 +1,4 @@
-namespace AppServices.Permutation
+namespace Domain.Interfaces
 {
     public interface ICache<TKey, TValue>
     {

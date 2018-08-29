@@ -15,11 +15,10 @@ namespace AppServices.Permutation
             
             Int32 length = input.Length;
             Int32 toSwapIndex = 0;
-            Int32 groupEnd = 0; 
 
-            Int32 multiplicationFactorials = 1;
-            Int32 factorialOfNumber = 1*2*3;
-            
+            var multiplicationFactorials = 1;
+            var factorialOfNumber = 1 * 2 * 3;
+
             while (i < length)
             {
                 
@@ -30,15 +29,12 @@ namespace AppServices.Permutation
                 {
                     if (sb[i] == sb[j])
                     {
-                        if (j > toSwapIndex)
-                        {
-                            Swap(sb,toSwapIndex, j);
-                        }
+                        if (j > toSwapIndex) Swap(sb, toSwapIndex, j);
                         toSwapIndex++;
-                        
+
                         k++;
                         multiplicationFactorials *= k;
-                        
+
                         m++;
                         factorialOfNumber *= m;
                     }

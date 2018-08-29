@@ -1,8 +1,9 @@
+using System;
+using Api.Model;
 using AppServices.Permutation;
 using Microsoft.AspNetCore.Mvc;
-using WebApp.Model;
 
-namespace WebApp.Controllers
+namespace Api.Controllers
 {
     public class PermutationController : Controller
     {
@@ -12,12 +13,20 @@ namespace WebApp.Controllers
         {
             _permutationsService = permutationsService;
         }
-        
+
         [HttpPost("permutations")]
-        public PermutationsModel Permutations(string input)
+        public IActionResult Permutations(string input)
         {
-            var permutations = _permutationsService.GetPermutations(input);
-            return PermutationsModel.FromObject(permutations);
+            try
+            {
+                var permutations = _permutationsService.GetPermutations(input);
+                return Ok(PermutationsModel.FromObject(permutations));
+            }
+            catch (Exception e)
+            {
+                return BadRequest(e);
+                throw;
+            }
         }
     }
 }
